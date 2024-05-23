@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #edf0f5;
+}
+
+.container {
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #4684e8;
+    margin-top: 100px;
+}
+.container h1{
+    padding-top: 30px;
+    color: white;
+}
+.tasklist
+{
+    width: 800px;
+    height: 200px;
+    text-align: center;
+    background-color: white;
+    /* margin-top: 10px; */
+    /* border: 1px solid red; */
+    margin: auto;
+    /* scroll-padding: 10px; */
+    padding-top: 10px;
+
+}
+.tasklist ul
+{
+    list-style-type: none;
+    padding: 10;
+    max-height: 400px; /* Set a max height for the list */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds max height */
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    background-color: white;
+}
+
+input {
+    width: 500px;
+    padding: 10px;
+    margin-right: 10px;
+
+}
+
+button {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li .actions button {
+    margin-left: 5px;
+}
+
+#empty-message {
+    color: #888;
+    font-style: italic;
+}
